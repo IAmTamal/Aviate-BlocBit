@@ -1,0 +1,22 @@
+.blockchainhome_row1 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.blockchain_image {
+  width: 70%;
+}
+
+.blockchainhome_imgdiv {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 430px) {
+  .blockchain_image {
+    display: none;
+  }
+  .blockchainhome_imgdiv {
+    display: none;
+  }
+}
