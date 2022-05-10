@@ -49,35 +49,58 @@
   width: 90%;
 }
 
+/* .blockchain_img_mobdiv {
+  display: none;
+}
+.blockchain_img_mob {
+  display: none;
+} */
+
 @media (max-width: 430px) {
+  .home_contentdiv {
+    margin-top: 4rem;
+  }
   .textdiv_welcome {
     font-size: 4rem;
     line-height: 70px;
+    text-align: center;
   }
 
   .textdiv_ultimate {
+    max-width: 100%;
+    text-align: center;
     margin-bottom: 0px;
     font-size: 1.1rem;
     line-height: 29px;
   }
 
   .textdiv_tryour {
-    color: rgb(228, 222, 222);
-    font-weight: 600;
-    font-family: "Open Sans", sans-serif;
+    max-width: 95%;
+    text-align: center;
     margin-bottom: 10px;
     font-size: 1rem;
     line-height: 29px;
   }
 
-  .currexbtn {
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 7px;
-    text-decoration: underline;
+  .btn_div {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .blockchain_img {
+    display: none;
+  }
+
+  .blockchain_img_mobdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .blockchain_img_mob {
+    display: block !important;
+    width: 350px;
+    margin-top: 1.6rem !important;
+    margin-bottom: 1.6rem !important;
+    margin: auto;
   }
 
   .home_imgdiv {
