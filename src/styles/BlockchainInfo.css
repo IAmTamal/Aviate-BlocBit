@@ -1,0 +1,49 @@
+.blockpage_parent {
+  background-color: #3d2c8d;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.blockchaininfo_row1 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.blockchaininfo_col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockchaininfo_textdiv {
+  margin: auto;
+}
+
+.blockchaininfo_imgdiv {
+  display: flex;
+  justify-content: center;
+}
+.accordion {
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.accordion-item {
+  margin-bottom: 1.2rem;
+  border-radius: 10px !important;
+}
+
+.accordion-header {
+  border-radius: 10px !important;
+}
+
+.accordion-button .collapsed {
+  border-radius: 10px !important;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
