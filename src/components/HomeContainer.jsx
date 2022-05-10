@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import "../styles/HomeContainer.css"
 import blockchainimg from "../assets/blocks1.svg"
 import BitcoinHome from './BitcoinHome'
+import BlockchainHome from './BlockchainHome'
 
 
 const HomeContainer = () => {
@@ -62,6 +63,8 @@ const HomeContainer = () => {
                         </div>
 
                         <BitcoinHome />
+
+                        <BlockchainHome />
 
 
                     </div>
