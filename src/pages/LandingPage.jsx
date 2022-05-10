@@ -1,15 +1,14 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import "../styles/Navbar.css"
+import HomeContainer from '../components/HomeContainer.jsx'
+import "../styles/LandingPage.css"
 
 const LandingPage = () => {
     return (
         <>
 
-            <div className="container">
+            <div className="landingpage_parent">
 
-                <Navbar />
-
+                <HomeContainer />
 
             </div>
         </>
