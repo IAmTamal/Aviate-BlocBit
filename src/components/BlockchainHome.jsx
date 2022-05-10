@@ -4,6 +4,7 @@ import blockchainimg from "../assets/bit1.svg"
 import "../styles/BitcoinHome.css"
 import blockchainhomeimg from "../assets/blockchainhome.png"
 import "../styles/BlockchainHome.css"
+import { Link } from 'react-router-dom'
 
 const BlockchainHome = () => {
     return (
@@ -29,7 +30,9 @@ const BlockchainHome = () => {
 
                             <p className='textdiv_tryour'>Read and learn more about blockchain</p>
 
-                            <button className='btn btn-warning currexbtn'>Blockchain  </button>
+                            <Link to="/blockchain-info">
+                                <button className='btn btn-warning currexbtn'>Blockchain  </button>
+                            </Link>
 
                         </p>
 
