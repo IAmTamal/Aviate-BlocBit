@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+.footer-div-parent {
+  margin-top: 8rem !important;
+}
+
 .blockchaininfo_row1 {
   margin-top: 7rem;
   margin-bottom: 7rem;
@@ -46,4 +50,10 @@
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
+}
+
+@media (max-width: 430px) {
+  .footer-div-parent {
+    margin-top: 5rem !important;
+  }
 }

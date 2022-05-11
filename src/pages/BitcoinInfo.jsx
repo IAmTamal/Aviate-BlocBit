@@ -4,9 +4,10 @@ import Navbar from '../components/Navbar'
 import "../styles/BlockchainInfo.css"
 import gs from "../assets/getstarted.svg"
 import BlockchainDetails from '../components/BlockchainDetails'
+import BitcoinDetails from '../components/BitcoinDetails'
 import Footer from '../components/Footer'
 
-const BlockchainInfo = () => {
+const BitcoinInfo = () => {
     return (
         <>
 
@@ -14,7 +15,7 @@ const BlockchainInfo = () => {
 
                 <HomeParticles />
 
-                <div className="container accordiancontainer">
+                <div className="container">
                     <Navbar />
 
 
@@ -25,7 +26,7 @@ const BlockchainInfo = () => {
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 blockchaininfo_col1">
 
                             <div className="blockchaininfo_textdiv">
-                                <p className='textdiv_welcome'>Get started <br /> with Blockchain</p>
+                                <p className='textdiv_welcome'>Get started <br /> with Bitcoins</p>
                                 {window.innerWidth > 431 && <br />}
 
                                 {window.innerWidth < 431 &&
@@ -35,9 +36,9 @@ const BlockchainInfo = () => {
                                 }
 
                                 <p className='textdiv_ultimate'>
-                                    Hello there, take a look at all the stuffs below, go from top to bottom and you will get a good idea of what blockchain is all about. <br /><br />
+                                    Hello there, take a look at all the stuffs below, go from top to bottom and you will get a good idea of what bitcoin is all about. <br /><br />
 
-                                    These documents are originally created by the BlockChain Foundation and are available on the BlockChain Wiki, Medium. <br /><br />
+                                    These documents are originally created by the Bitcoin Foundation and are available on the Bitcoin Wiki, Medium. <br /><br />
 
                                 </p>
 
@@ -63,13 +64,15 @@ const BlockchainInfo = () => {
                     </div>
 
 
-                    <BlockchainDetails />
+                    <BitcoinDetails />
                 </div>
 
 
                 <div className="footer-div-parent">
                     <Footer />
+
                 </div>
+
 
             </div>
 
@@ -77,4 +80,4 @@ const BlockchainInfo = () => {
     )
 }
 
-export default BlockchainInfo
+export default BitcoinInfo

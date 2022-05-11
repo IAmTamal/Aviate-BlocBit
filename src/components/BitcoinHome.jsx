@@ -5,6 +5,7 @@ import blockchainimg from "../assets/bit1.svg"
 import bitcoinimg from "../assets/bitcoin.svg"
 import "../styles/BitcoinHome.css"
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 
 const BitcoinHome = () => {
@@ -41,9 +42,13 @@ const BitcoinHome = () => {
 
                             <p className='textdiv_tryour'>Read and learn more about bitcoins</p>
 
-                            <button className='btn btn-warning currexbtn'>Bitcoins  </button>
 
 
+                            <Link to={"/bitcoin-info"}>
+
+                                <button className='btn btn-warning currexbtn'>Bitcoins  </button>
+
+                            </Link>
 
 
                         </p>

@@ -158,3 +158,9 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+
+@media (max-width: 430px) {
+  .footersubcol {
+    display: none;
+  }
+}
