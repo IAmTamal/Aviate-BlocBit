@@ -26,6 +26,8 @@ const App = () => {
                     <Route path="/blockchain-info" element={<BlockchainInfo />} />
                     <Route path="/bitcoin-info" element={<BitcoinInfo />} />
 
+                    <Route path="/currencyexchange" element={<CurrencyConverter />} />
+
                 </Routes>
             </Router>
 
