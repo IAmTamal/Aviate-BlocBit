@@ -1,5 +1,9 @@
+// this is the navbar component 
+// it have all the links so that we can like jump to other pages and we used
+// auth0 for login, signup and logout
+
 import React from 'react'
-import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css"
 import { useAuth0 } from '@auth0/auth0-react';
 

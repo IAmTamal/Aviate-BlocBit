@@ -100,11 +100,11 @@ const BlockchainDetails = () => {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Accordion Item #3
+                            Who Invented Blockchain?
                         </button>
                     </h2>
                     <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        <div class="accordion-body">Blockchain technology was first outlined in 1991 by Stuart Haber and W. Scott Stornetta, two mathematicians who wanted to implement a system where document time stamps could not be tampered with.1 In the late 1990s, cypherpunk Nick Szabo proposed using a blockchain to secure a digital payments system, known as bit gold (which was never implemented).</div>
                     </div>
                 </div>
 
