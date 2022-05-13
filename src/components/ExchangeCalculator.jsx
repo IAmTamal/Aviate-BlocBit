@@ -6,7 +6,7 @@ import { ConvertCurrency } from "../service/Api.js"
 
 const ExchangeCalculator = () => {
 
-    const [credentials, setcredentials] = useState({ currency: "USD", amount: "950000" });
+    const [credentials, setcredentials] = useState({ currency: "USD", amount: "" });
     const [exchangedamt, setexchangedamt] = useState(0);
     // var exchangedamt = 0;
 
@@ -34,9 +34,21 @@ const ExchangeCalculator = () => {
     const handleclick = async (e) => {
         e.preventDefault();
         setexchangedamt(await ConvertCurrency(credentials));
-        console.log(exchangedamt);
+       credentials.amount = "";
+        // console.log(credentials);
 
     }
+
+    const handleChange = (option) => {
+        credentials.currency = option;
+    }
+
+    const currencychange = (e) => {
+        setcredentials({ ...credentials, [e.target.name]: e.target.value });
+    }
+
+
+
     return (
         <>
 
@@ -50,9 +62,10 @@ const ExchangeCalculator = () => {
                             options={colourOptions}
                             className="basic-multi-select"
                             classNamePrefix="select"
+                            onChange={(option) => { handleChange(option.value) }}
                         />
 
-                        <input type="text" name="" id="" placeholder='Enter the value, ex: 500' className='form-control' />
+                       <input type="text" className="form-control" name='amount' value={credentials.amount} onChange={(e)=>{currencychange(e)}} />
 
                         <button className='btn btn-warning exchangebtn' onClick={(e) => { handleclick(e) }}>Exchange</button>
 

@@ -7,6 +7,7 @@
   background-color: #fafafa;
   border-radius: 10px;
   max-width: 40%;
+  padding: 30px;
 }
 
 .exchange_textdiv {
@@ -45,4 +46,11 @@
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+}
+
+
+@media (max-width: 430px) {
+  .exchange_parent2 {
+    max-width: 100%;
+  }
 }
