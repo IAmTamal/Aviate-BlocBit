@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+![blocbitbanner](https://user-images.githubusercontent.com/72851613/168325311-f3c03c6e-5b1c-4bdc-aff5-b0d84beb3d12.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# What is Blocbit ? 🚄
 
-In the project directory, you can run:
+**BlocBit** is The ultimate place to learn everything you need to get started about Blockchains, Crypto and Bitcoins.
 
-### `npm start`
+We provide you step by step tutorials on Bitcoin, blockchains with all original docs witten in a much better sumarized manner for better understanding purposes along with a **currency converter** to take a look at the value.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# How do i acess the app ? 🎡
 
-### `npm test`
+Easy enough simply go to **[BlocBit](https://blocbit.vercel.app/)** and that's it !! <br/>
+You can share it with your friends and help us grow !!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--- 
 
-### `npm run build`
+# What do we offer ? 🐙
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There are precisely 3 main sections of the app to help you learn.
+- We have the **Blockchains section**
+- We have the **Bitcoin section**
+- We have a currency converter
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can also authenticate yourself !! 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# Tech stacks used ? 💮
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A basic **ReactJS application**
+- Stylings done with **CSS, Bootstrap 5.0**
+- Authenticated with **Auth0**
+- Deployed on **Vercel**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Here's a sneak peek 👁‍🗨
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![banner2](https://user-images.githubusercontent.com/72851613/168327852-0bf400d2-b1e7-400c-87c7-a37ee7025594.png)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Setup locally 💡
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Star the repository
+- Fork it to your account
+- **`git clone https://github.com/IAmTamal/Aviate-BlocBit.git`** to clone it
+- **`npm install`** to install the dependancies.
+- Create a **`.env`** file and add your auth0 details there.
+- **`npm start`** to start the application.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# That's all !! 
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Enjoy the build, check out the releases here [Releases](https://github.com/IAmTamal/Aviate-BlocBit/releases).
