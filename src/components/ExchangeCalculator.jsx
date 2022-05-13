@@ -34,7 +34,7 @@ const ExchangeCalculator = () => {
     const handleclick = async (e) => {
         e.preventDefault();
         setexchangedamt(await ConvertCurrency(credentials));
-       credentials.amount = "";
+        credentials.amount = "";
         // console.log(credentials);
 
     }
@@ -65,7 +65,7 @@ const ExchangeCalculator = () => {
                             onChange={(option) => { handleChange(option.value) }}
                         />
 
-                       <input type="text" className="form-control" name='amount' value={credentials.amount} onChange={(e)=>{currencychange(e)}} />
+                        <input type="text" className="form-control" name='amount' value={credentials.amount} onChange={(e) => { currencychange(e) }} placeholder="Enter the amount" />
 
                         <button className='btn btn-warning exchangebtn' onClick={(e) => { handleclick(e) }}>Exchange</button>
 
