@@ -5,6 +5,7 @@ import "../styles/HomeContainer.css"
 import blockchainimg from "../assets/blocks1.svg"
 import BitcoinHome from './BitcoinHome'
 import BlockchainHome from './BlockchainHome'
+import { Link } from 'react-router-dom'
 
 
 const HomeContainer = () => {
@@ -46,7 +47,11 @@ const HomeContainer = () => {
                                     <p className='textdiv_tryour'>Try our brand new currency exchange calculator !!</p>
 
                                     <div className="btn_div">
+                                        <Link to={"/exchange"}>
+                                        
                                         <button className='btn btn-warning currexbtn'>CurrEx &gt; </button>
+
+                                        </Link>
                                     </div>
                                 </div>
 
