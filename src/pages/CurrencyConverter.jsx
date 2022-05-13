@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ConvertCurrency } from "../service/Api.js"
+
 import HomeParticles from '../components/HomeParticles'
 import Navbar from '../components/Navbar'
 import "../styles/BlockchainInfo.css"
@@ -9,17 +9,9 @@ import Footer from '../components/Footer'
 import ExchangeCalculator from '../components/ExchangeCalculator.jsx'
 
 const CurrencyConverter = () => {
-    const [credentials, setcredentials] = useState({ currency: "USD", amount: "500" });
-    const [exchangedamt, setexchangedamt] = useState(0);
-    // var exchangedamt = 0;
 
 
-    const handleclick = async (e) => {
-        e.preventDefault();
-        setexchangedamt(await ConvertCurrency(credentials));
-        console.log(exchangedamt);
 
-    }
 
     return (
 
