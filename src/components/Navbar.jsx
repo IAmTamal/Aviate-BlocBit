@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import "../styles/Navbar.css"
+import { useAuth0 } from '@auth0/auth0-react';
 
 const Navbar = () => {
+    const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
+
     return (
         <>
 
@@ -34,11 +37,16 @@ const Navbar = () => {
                                 </li>
                             </Link>
 
-                            <Link to={"/about"} className="navbarlinks">
-                                <li className="nav-item ">
+                            {isAuthenticated ? (
+                                <li className="nav-item " onClick={() => logout()}>
+                                    <img src={user.picture} alt="" className='profileimage' />
+                                </li>
+                            ) : (
+                                <li className="nav-item " onClick={() => loginWithRedirect()}>
                                     <p>Login</p>
                                 </li>
-                            </Link>
+                            )}
+
                         </ul>
 
                     </div>
